@@ -4,11 +4,12 @@ This is a full-stack community platform inspired by LinkedIn, built as part of t
 
 ## 🚀 Live Demo
 
-🌐 [Click here to view the live site](https://your-live-site-url.vercel.app)
+🌐 [Click here to view the live site](https://mini-linkedin-client.vercel.app)
 
-## 📁 GitHub Repository
+## 📁 GitHub Repositories
 
-🔗 [View the GitHub Repository](https://github.com/your-username/mini-linkedin-clone)
+🔗 [View the GitHub Repository](https://github.com/Imran00852/Mini-Linkedin-client)
+🔗 [View the GitHub Repository](https://github.com/Imran00852/Mini-Linkedin-server)
 
 ---
 
@@ -64,19 +65,20 @@ This is a full-stack community platform inspired by LinkedIn, built as part of t
 ## 🧪 Demo Credentials
 
 ```
-Email: demo@community.com
-Password: 12345678
+Email: sample@gmail.com
+Password: sample123
 ```
 
 ---
 
 ## ⚙️ Setup Instructions
 
-### 1. Clone the Repository
+### 1. Clone the Repositories
 
 ```bash
-git clone https://github.com/your-username/mini-linkedin-clone.git
-cd mini-linkedin-clone
+git clone https://github.com/imran00852/Mini-Linkedin-client.git
+git clone https://github.com/imran00852/Mini-Linkedin-server.git
+
 ```
 
 ---
@@ -84,7 +86,6 @@ cd mini-linkedin-clone
 ### 2. Setup Backend
 
 ```bash
-cd server
 npm install
 ```
 
@@ -114,7 +115,6 @@ npm run dev
 ### 3. Setup Frontend
 
 ```bash
-cd ../client
 npm install
 ```
 
@@ -129,7 +129,7 @@ npm install @reduxjs/toolkit react-redux
 #### ▶️ Start Frontend
 
 ```bash
-npm start
+npm run dev
 ```
 
 ---
