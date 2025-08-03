@@ -104,7 +104,15 @@ const Profile = () => {
 
       <Stack spacing={3}>
         {isLoading ? (
-          <CircularProgress />
+          <Box
+            display="flex"
+            alignItems="center"
+            justifyContent="center"
+            height="100vh"
+            width="100vw"
+          >
+            <CircularProgress size={120} />
+          </Box>
         ) : posts.length > 0 ? (
           posts.map((post) => (
             <Post
